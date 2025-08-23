@@ -32,8 +32,7 @@ Check: revisar el número ingresado
   invertir el texto
  convertir el texto a numero
 If  el número es negativo -
- 
-
-Final:
+ Final:
 Print: Este es tu numero invertido
 
+Para mi proyecto de me gustaria hacer una caja registradora
