@@ -23,6 +23,14 @@ while True:
     else:
         print("Producto no reconocido. Intenta nuevamente.")
 
+# Preguntar si es persona de la tercera edad
+respuesta = input("\n¿Es usted persona de la tercera edad? (si/no): ").lower()
+
+if respuesta == "si":
+    descuento = total * 0.10   # 10% de descuento
+    total -= descuento
+    print(f"Se aplicó un descuento de ${descuento:.2f}")
+
 print(f"\nTotal a pagar: ${total:.2f}")
 print("Gracias por tu compra.")
 
