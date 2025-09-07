@@ -26,7 +26,10 @@ while True:
 # Preguntar si es persona de la tercera edad
 respuesta = input("\n¿Es usted persona de la tercera edad? (si/no): ").lower()
 
-if respuesta == "si":
+
+def descuento_tercera_edad(total):
+    return total * 0.10  # 10% de descuento
+if respuesta == "si": 
     descuento = total * 0.10   # 10% de descuento
     total -= descuento
     print(f"Se aplicó un descuento de ${descuento:.2f}")
