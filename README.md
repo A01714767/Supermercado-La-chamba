@@ -1,2 +1,2 @@
 # Tec-prueba-2
-Una prueba
+Este es un autocobro dentro de un supermercado
