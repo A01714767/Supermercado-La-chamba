@@ -1,4 +1,3 @@
-# Lista de productos y precios
 precios = {
     "pan": 1.00,
     "leche": 1.50,
@@ -43,4 +42,20 @@ def mostrar_ticket(productos_comprados, total):
 
 mostrar_ticket(productos_comprados, total)
 
+# Nueva funcionalidad: matriz de inventario (producto, precio, cantidad disponible)
+inventario = [
+    ["pan", 1.00, 20],
+    ["leche", 1.50, 15],
+    ["arroz", 2.00, 10],
+    ["huevos", 2.50, 30],
+    ["manzana", 0.75, 25]
+]
 
+print("\nInventario actual (producto, precio, cantidad disponible):")
+for item in inventario:
+    print(f"{item[0].capitalize()} - Precio: ${item[1]:.2f} - Cantidad: {item[2]}")
+
+def pares_dobles():
+    for (2, 2, 10) in range (10): 
+        print(f"{2, 2, 10}")
+        print("pares dobles")
