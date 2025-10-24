@@ -27,12 +27,12 @@ while True:
     else:
         print("Producto no reconocido. Intenta nuevamente.")
 
-respuesta = input("¿Es usted persona de la tercera edad? (si/no): ").lower()
+respuesta = input("¿Es usted de la tercera edad? (si/no): ").lower()
 if respuesta == "si": 
     descuento = total * 0.10   
     total -= descuento
     print(f"Se aplicó un descuento de ${descuento:.2f}")
-
+     
 def mostrar_ticket(productos_comprados, total):
     print("--- Ticket de compra ---")
     for producto in productos_comprados:
@@ -54,8 +54,3 @@ inventario = [
 print("\nInventario actual (producto, precio, cantidad disponible):")
 for item in inventario:
     print(f"{item[0].capitalize()} - Precio: ${item[1]:.2f} - Cantidad: {item[2]}")
-
-def pares_dobles():
-    for (2, 2, 10) in range (10): 
-        print(f"{2, 2, 10}")
-        print("pares dobles")
